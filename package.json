@@ -1,0 +1,26 @@
+{
+  "name": "google-flow-automator",
+  "version": "1.0.0",
+  "description": "Automação unificada do Google Flow (Veo 3.1 & Nano Banana) via Chrome oficial com CDP",
+  "type": "module",
+  "main": "src/cli.mjs",
+  "scripts": {
+    "status": "node src/cli.mjs status",
+    "video": "node src/cli.mjs video",
+    "image": "node src/cli.mjs image",
+    "cli": "node src/cli.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.50.0"
+  },
+  "keywords": [
+    "google-flow",
+    "veo",
+    "nano-banana",
+    "playwright",
+    "cdp",
+    "antigravity"
+  ],
+  "author": "Antigravity",
+  "license": "MIT"
+}

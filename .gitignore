@@ -1,0 +1,10 @@
+node_modules/
+outputs/
+*.mp4
+*.png
+*.jpeg
+*.jpg
+*.webp
+.DS_Store
+*.log
+graphify-out/
